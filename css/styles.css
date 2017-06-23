@@ -200,35 +200,57 @@ figure {
 @media ( min-width:768px ) {
 
   .site-nav {
-    display: block;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-width: 100px;
-    height: 100%;
-    z-index: 1000;
-  }
+   display: block;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   max-width: 100px;
+   height: 100%;
+   z-index: 1000;
+ }
 
-  .site-nav-list {max-width: 10px;}
+ .site-nav-list {
+   max-width: 10px;
+   padding-top: 100px}
 
-  .site-nav-item {
-    float: none;
-    text-align: center;
-    padding-top: 130px;
-    padding-left: 35px;
-    padding-top: 130px;
-  }
+ .site-nav-item {
+   float: none;
+   text-align: center;
+   height: 80px;
+   width: 80px;
+   padding: 15px
+ }
 
-  .site-logo {
-    z-index: 2000
-  }
+ .site-logo {
+   z-index: 2000;
+   width: 80px;
+   padding-right: 10px
+ }
 
 .movie {
-  margin-left: 100px
+ margin-left: 100px
 }
 
 .movie-overview {
-  display: inline;
+ display: inline;
 }
+
+.about{
+ display: inline block;
+ float: right;
+ width: 43.5%;
+ background-color: black;
+ color: white;
+}
+
+.footer-nav {
+  float: left;
+  display: inline-block;
+  width: 43.5%;
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+  padding-top: 26px;
+  padding-bottom: 26px
 }
