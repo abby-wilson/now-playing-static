@@ -246,6 +246,7 @@ figure {
 
 .footer-nav {
   float: left;
+  clear: both;
   display: inline-block;
   width: 43.5%;
   margin-left: 100px;
@@ -253,4 +254,36 @@ figure {
   color: white;
   padding-top: 26px;
   padding-bottom: 26px
+}
+
+@media ( min-width: 992px) {
+
+  .movie-overview {
+    display: none;
+  }
+
+  body > main > article:nth-child(1) > div > p {
+    display: inline-block;
+  }
+
+  body > main > article:nth-child(1) > figure > img.movie-backdrop {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .third {
+    width: 33%;
+    display: inline-block;
+    margin: 0
+  }
+
+  .third .movie-backdrop {
+    display: none;
+  }
+
+  .third .movie-poster {
+    display: inline-block;
+    position: relative;
+  }
+  ]
 }
