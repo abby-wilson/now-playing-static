@@ -205,18 +205,16 @@ figure {
     bottom: 0;
     left: 0;
     right: 0;
-    /* width: 100%; */
     max-width: 70px;
     height: 100%;
     z-index: 1000;
   }
 
-  .site-nav-list {max-width: 10px;/* position: fixed; */}
+  .site-nav-list {max-width: 10px;}
 
   .site-nav-item {
     float: none;
     text-align: center;
-    er; */
     padding-top: 130px;
     padding-left: 15px;
     padding-top: 130px;
@@ -225,3 +223,8 @@ figure {
   .site-logo {
     z-index: 2000
   }
+
+.movie {
+  margin-left: 70px
+}
+}
